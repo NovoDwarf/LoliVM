@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/LoliVM.Tests.Shared/LoliVM.Tests.Shared.csproj" />
+    <Project Path="Tests/LoliVM.NET.Tests/LoliVM.NET.Tests.csproj" />
+    <Project Path="Tests/LoliVM.Assembler.Tests/LoliVM.Assembler.Tests.csproj" />
+    <Project Path="Tests/LoliVM.Example.Tests/LoliVM.Example.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Sources/">
+    <Project Path="LoliVM.Assembler/LoliVM.Assembler.csproj" />
+    <Project Path="LoliVM.Example/LoliVM.Example.csproj" />
+    <Project Path="LoliVM.NET/LoliVM.NET.csproj" />
+  </Folder>
+</Solution>

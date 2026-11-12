@@ -1,0 +1,25 @@
+# Keep text consistent across Windows and Unix checkouts.
+* text=auto eol=lf
+
+# Windows command scripts require CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Use Git's C# function recognition in diffs.
+*.cs text diff=csharp
+
+# Binary assets must never undergo line-ending conversion.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.gz binary
+*.exe binary
+*.dll binary
+*.pdb binary
+*.bin binary
+*.wasm binary

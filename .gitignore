@@ -1,0 +1,54 @@
+# IDE and per-user settings
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# .NET build, package, test, and benchmark output
+[Bb]in/
+[Oo]bj/
+packages/
+TestResults/
+BenchmarkDotNet.Artifacts/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+*.nupkg
+*.snupkg
+
+# Rust build output (Cargo.lock is intentionally tracked)
+target/
+**/*.rs.bk
+
+# Go test output and local workspace overrides
+*.test
+go.work
+go.work.sum
+
+# Zig build output
+.zig-cache/
+zig-cache/
+zig-out/
+
+# Runtime logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+
+# Local environment configuration; example files can be committed
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

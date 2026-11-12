@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../../LoliVM.NET/LoliVM.NET.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../LoliVM.Tests.Shared/LoliVM.Tests.Shared.csproj" />
+  </ItemGroup>
+</Project>
