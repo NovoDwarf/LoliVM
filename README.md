@@ -8,10 +8,10 @@ The project is an opportunity to try different programming languages, including 
 
 - [x] Create a command language so programs do not have to be written in hexadecimal.
 - [ ] Implement the machine in Go.
-- [ ] Implement the machine in C#.
+- [x] Implement the machine in C#.
 - [ ] Implement the machine in Rust.
 - [ ] Implement the machine in Zig.
-- [x] Implement the coordinator in C#.
+- [ ] Implement the coordinator in C#.
 - [ ] Consider extending the machine to 16, 32, or 64 bits.
 - [ ] Consider implementing instruction set extensions.
 
